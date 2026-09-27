@@ -8,14 +8,14 @@ var EMILS_MENU = {
     note: "Alle kebaber serveres med salat, mais, løk, tomat, jalapeño og dressing.",
     allergenNote: "Allergener kebab nr. 50–57: hvete, melk, soya, sesam, selleri [1,2,3,4,5]",
     items: [
-      { nr: 50, name: "Rullekebab", variant: "Lam", prices: [124, 159] },
-      { nr: 51, name: "Rullekebab", variant: "Biff", prices: [164, 199] },
-      { nr: 52, name: "Rullekebab", variant: "Kylling", prices: [154, 179] },
-      { nr: 53, name: "Rulle Falafel", prices: [124, 149] },
-      { nr: 54, name: "Biff pita", prices: [173, 204] },
-      { nr: 55, name: "Lam pita", prices: [144, 174] },
-      { nr: 56, name: "Kylling pita", prices: [159, 184] },
-      { nr: 57, name: "Falafel pita", prices: [134, 159] },
+      { nr: 50, name: "Rullekebab", variant: "Lam", prices: [129, 164] },
+      { nr: 51, name: "Rullekebab", variant: "Biff", prices: [169, 204] },
+      { nr: 52, name: "Rullekebab", variant: "Kylling", prices: [154, 189] },
+      { nr: 53, name: "Rulle Falafel", prices: [124, 159] },
+      { nr: 54, name: "Biff pita", prices: [179, 214] },
+      { nr: 55, name: "Lam pita", prices: [144, 179] },
+      { nr: 56, name: "Kylling pita", prices: [159, 194] },
+      { nr: 57, name: "Falafel pita", prices: [134, 169] },
       { nr: 58, name: "Pommes frites", allergens: "2,3", prices: [80, 120] }
     ]
   },
@@ -26,14 +26,14 @@ var EMILS_MENU = {
     note: "Serveres med salat, mais, løk, tomat, jalapeño og dressing.",
     allergenNote: "Allergener kebab nr. 60–61 og 63–66: hvete, melk, soya, sesam, selleri [1,2,3,4,5]",
     items: [
-      { nr: 60, name: "Kebabtallerken", prices: [169, 204] },
-      { nr: 61, name: "Kyllingtallerken", prices: [179, 214] },
-      { nr: 62, name: "Bifftallerken", prices: [189, 224] },
+      { nr: 60, name: "Kebabtallerken", prices: [179, 209] },
+      { nr: 61, name: "Kyllingtallerken", prices: [194, 224] },
+      { nr: 62, name: "Bifftallerken", prices: [204, 234] },
       { nr: 63, name: "Nugget tallerken", allergens: "1,2,3,4,5,6", prices: [169, 204] },
-      { nr: 64, name: "Falafel tallerken", prices: [164, 199] },
+      { nr: 64, name: "Falafel tallerken", prices: [169, 199] },
       { nr: 65, name: "Løvstek tallerken", prices: [169, 204] },
-      { nr: 66, name: "Biffsnadder", prices: [199, 234] },
-      { nr: 67, name: "Kyllingsnadder", prices: [184, 219] }
+      { nr: 66, name: "Biffsnadder", prices: [209, 239] },
+      { nr: 67, name: "Kyllingsnadder", prices: [199, 229] }
     ]
   },
 
@@ -43,19 +43,19 @@ var EMILS_MENU = {
     note: "Meny serveres med pommes frites, salat, mais, løk, jalapeño, dressing og 0,5 l brus.",
     allergenNote: "Allergener burgere nr. 70–79 og 81: hvete, melk, soya, sesam, selleri, sennep, egg [1,2,3,4,5,6,7]",
     items: [
-      { nr: 70, name: "160 g. Hamburger", prices: [129, 159, 189] },
-      { nr: 71, name: "190 g. Hamburger", prices: [144, 174, 204] },
-      { nr: 72, name: "250 g. Hamburger", prices: [184, 214, 244] },
-      { nr: 73, name: "333 g. Hamburger", prices: [199, 229, 259] },
-      { nr: 74, name: "Løvstekburger", prices: [144, 174, 204] },
-      { nr: 75, name: "Kyllingburger", prices: [139, 169, 199] }
+      { nr: 70, name: "160 g. Hamburger", prices: [134, 164, 194] },
+      { nr: 71, name: "190 g. Hamburger", prices: [149, 179, 209] },
+      { nr: 72, name: "250 g. Hamburger", prices: [189, 219, 249] },
+      { nr: 73, name: "333 g. Hamburger", prices: [204, 234, 264] },
+      { nr: 74, name: "Løvstekburger", prices: [149, 179, 209] },
+      { nr: 75, name: "Kyllingburger", prices: [144, 174, 204] }
     ]
   },
 
   extra: {
     title: "Ekstra",
     items: [
-      { name: "Drikke 0,5 l.", price: 43 },
+      { name: "Drikke 0,5 l.", price: 45 },
       { name: "Ost", price: 15 },
       { name: "Bacon", price: 15 },
       { name: "Ost & bacon", price: 30 },
