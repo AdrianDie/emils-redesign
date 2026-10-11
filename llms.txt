@@ -1,0 +1,20 @@
+# Emil's Kebab & Pizzeria
+
+> Kebab, pizza and burgers at Støletorget in Sandviken, Bergen (Stølegaten 21). Named Bergen's best kebab by BT and Kebab of the Year at Wolt Awards 2023. Order for pickup or delivery.
+
+- Address: Stølegaten 21, 5003 Bergen, Norway
+- Phone: +47 55 31 19 00
+- Opening hours: Monday–Thursday and Sunday 11:00–22:45, Friday–Saturday 11:00–23:45
+- Cuisine: kebab, pizza, burgers
+- Rating: 4.6 (804 reviews)
+
+## Order
+
+- [Order for pickup](https://order.gastroplanner.no/s/emilskebabpizzeria)
+- [Delivery via Wolt](https://wolt.com/nb/nor/bergen/restaurant/emils-kebab)
+
+## Pages
+
+- [Home](https://emils.no/): overview, awards, reviews, opening hours
+- [Menu](https://emils.no/meny.html): full menu with prices
+- [Contact](https://emils.no/kontakt.html): address, phone, map
