@@ -13,7 +13,12 @@
 - [Order for pickup](https://order.gastroplanner.no/s/emilskebabpizzeria)
 - [Delivery via Wolt](https://wolt.com/nb/nor/bergen/restaurant/emils-kebab)
 
-## Pages
+## Pages in English
+
+- [Home (English)](https://emils.no/en/): overview, awards, reviews, opening hours, contact
+- [Menu (English)](https://emils.no/en/menu.html): full menu with prices and allergens
+
+## Pages in Norwegian
 
 - [Home](https://emils.no/): overview, awards, reviews, opening hours
 - [Menu](https://emils.no/meny.html): full menu with prices

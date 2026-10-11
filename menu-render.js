@@ -2,6 +2,7 @@
   "use strict";
   var M = window.EMILS_MENU;
   if (!M) return;
+  var allergenLabel = M.allergenLabel || "Allergener";
 
   function priceText(prices) {
     return prices.map(function (p) { return p + ",–"; }).join(" / ");
@@ -32,7 +33,7 @@
       left.appendChild(el("div", "menu-row-desc", item.desc));
     }
     if (item.allergens) {
-      left.appendChild(el("div", "menu-row-allergen", "Allergener: [" + item.allergens + "]"));
+      left.appendChild(el("div", "menu-row-allergen", allergenLabel + ": [" + item.allergens + "]"));
     }
 
     var priceWrap = el("div", "menu-row-price");
@@ -60,7 +61,7 @@
 
     var notes = [];
     if (group.note) notes.push(group.note);
-    if (group.allergenNote) notes.push("<strong>Allergener:</strong> " + group.allergenNote.replace(/^Allergener[^:]*:\s*/, ""));
+    if (group.allergenNote) notes.push("<strong>" + allergenLabel + ":</strong> " + group.allergenNote.replace(new RegExp("^" + allergenLabel + "[^:]*:\\s*"), ""));
     if (notes.length) {
       var box = el("div", "allergen-box", notes.join("<br>"));
       container.appendChild(box);

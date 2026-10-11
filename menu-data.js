@@ -66,8 +66,7 @@ var EMILS_MENU = {
 
   pizza: {
     title: "Pizzameny",
-    note: "To størrelser, priset som par (liten / stor). Gratis dip ved bestilling av pizza.",
-    allergenNote: "Ekstra: kjøtt 30,- · grønnsaker 20,- · ost 25,- · dipsaus 40,-",
+    note: "To størrelser, priset som par (liten / stor). Gratis dip ved bestilling av pizza.<br>Ekstra: kjøtt 30,- · grønnsaker 20,- · ost 25,- · dipsaus 40,-",
     items: [
       { nr: 1, name: "Margerita", desc: "Tomatsaus og ost.", allergens: "1,2,3,4,5", prices: [144, 229] },
       { nr: 2, name: "Napoli", desc: "Tomatsaus, ost, skinke.", allergens: "1,2,3,4,5", prices: [159, 245] },

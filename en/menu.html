@@ -1,0 +1,184 @@
+<html lang="en">
+<title>Menu — Emil's Kebab & Pizzeria</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="The full menu at Emil's Kebab & Pizzeria in Bergen: kebab, kebab plates, burgers and 26 pizzas. Order for pickup or delivery." />
+<meta name="theme-color" content="#1B1712" />
+<link rel="canonical" href="https://emils.no/en/menu.html" />
+<link rel="alternate" hreflang="nb" href="https://emils.no/meny.html" />
+<link rel="alternate" hreflang="en" href="https://emils.no/en/menu.html" />
+<link rel="alternate" hreflang="x-default" href="https://emils.no/meny.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Menu — Emil's Kebab & Pizzeria" />
+<meta property="og:description" content="The full menu at Emil's Kebab & Pizzeria in Bergen: kebab, kebab plates, burgers and 26 pizzas. Order for pickup or delivery." />
+<meta property="og:image" content="https://emils.no/assets/food-kebab-action.webp" />
+<meta property="og:url" content="https://emils.no/en/menu.html" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:locale:alternate" content="nb_NO" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/Caveat-600-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/SchibstedGrotesk-400-latin.woff2" crossorigin>
+<link rel="stylesheet" href="../style.css" />
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="./" class="logo"><img src="../assets/logo.png" alt="Emil's Kebab & Pizzeria" width="217" height="66" /></a>
+    <nav class="nav-desktop" aria-label="Main menu">
+      <a href="./">Home</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="./#contact">Contact</a>
+      <a href="../meny.html" lang="nb" hreflang="nb">NO</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary nav-cta" href="https://order.gastroplanner.no/s/emilskebabpizzeria" target="_blank" rel="noopener">Order now</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu-backdrop" id="mobileMenuBackdrop"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">×</button>
+  <nav aria-label="Mobile menu">
+    <a href="./">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="./#contact">Contact</a>
+    <a href="../meny.html" lang="nb" hreflang="nb">Norsk</a>
+  </nav>
+  <div class="mobile-menu-actions">
+    <a class="btn btn-primary btn-block" href="https://order.gastroplanner.no/s/emilskebabpizzeria" target="_blank" rel="noopener">Order for pickup</a>
+    <a class="btn btn-ghost btn-block" href="https://wolt.com/en/nor/bergen/restaurant/emils-kebab" target="_blank" rel="noopener">Order for delivery</a>
+    <a href="tel:+4755311900" class="mobile-menu-phone">+47 55 31 19 00</a>
+  </div>
+</div>
+
+<main>
+  <section class="menu-hero">
+    <div class="container">
+      <span class="eyebrow">Kebab · Pizza · Burger</span>
+      <h1>The full menu</h1>
+      <p>Everything is made by hand with fresh ingredients, just like at Støletorget. Prices are shown in Norwegian kroner (NOK).</p>
+      <div class="hero-actions">
+        <a class="btn btn-yellow" href="https://order.gastroplanner.no/s/emilskebabpizzeria" target="_blank" rel="noopener">Order for pickup</a>
+        <a class="btn btn-ghost" href="https://wolt.com/en/nor/bergen/restaurant/emils-kebab" target="_blank" rel="noopener">Order delivery on Wolt</a>
+      </div>
+    </div>
+  </section>
+
+  <nav class="menu-jump" aria-label="Jump to menu section">
+    <a href="#kebab">Kebab</a>
+    <a href="#kebabtallerken">Kebab plate</a>
+    <a href="#burger">Burger</a>
+    <a href="#pizza">Pizza</a>
+    <a href="#ekstra">Extras</a>
+  </nav>
+
+  <div class="menu-page-bg">
+  <div class="container">
+    <section class="menu-block" id="kebab">
+      <div class="menu-block-head">
+        <div class="menu-block-title"><span class="eyebrow">No. 50–58</span><h2>Kebab</h2></div>
+        <p class="menu-block-note">Medium and large size.</p>
+      </div>
+      <div id="menu-kebab"></div>
+    </section>
+
+    <section class="menu-block" id="kebabtallerken">
+      <div class="menu-block-head">
+        <div class="menu-block-title"><span class="eyebrow">No. 60–67</span><h2>Kebab plate</h2></div>
+        <p class="menu-block-note">Without a drink, or as a meal.</p>
+      </div>
+      <div id="menu-kebabtallerken"></div>
+    </section>
+
+    <section class="menu-block" id="burger">
+      <div class="menu-block-head">
+        <div class="menu-block-title"><span class="eyebrow">No. 70–75</span><h2>Burger meals</h2></div>
+        <p class="menu-block-note">Meat is weighed raw. Available as a burger only, with a drink, or as a full meal.</p>
+      </div>
+      <div id="menu-burger"></div>
+    </section>
+
+    <section class="menu-block" id="ekstra">
+      <div class="menu-block-head">
+        <div class="menu-block-title"><span class="eyebrow">Add-ons</span><h2>Extras</h2></div>
+      </div>
+      <div id="menu-extra"></div>
+    </section>
+
+    <section class="menu-block" id="pizza">
+      <div class="menu-block-head">
+        <div class="menu-block-title"><span class="eyebrow">No. 1–26</span><h2>Pizza menu</h2></div>
+        <p class="menu-block-note">★★★★★ marks the restaurant's bestsellers.</p>
+      </div>
+      <div id="menu-pizza"></div>
+    </section>
+
+    <div class="allergen-box" style="margin-bottom: 60px;">
+      <strong>Allergen key:</strong> <span id="allergen-legend"></span>
+    </div>
+  </div>
+  </div>
+
+  <section class="section-dark section-pad-sm">
+    <div class="container">
+      <div class="awards-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); max-width: 720px; margin-inline: auto;">
+        <div class="award-card">
+          <div class="award-img-wrap"><img src="../assets/badge-restaurant-guru.webp" alt="Restaurant Guru 2023, Best Pizza in Bergen" loading="lazy" width="495" height="700"></div>
+          <h3>Restaurant Guru 2023</h3>
+          <p>Best Pizza in Bergen</p>
+        </div>
+        <div class="award-card">
+          <div class="award-img-wrap dark-mount"><img src="../assets/award-arets-kebab.webp" alt="Kebab of the Year, Wolt Awards 2023" loading="lazy" width="700" height="414"></div>
+          <h3>Kebab of the Year</h3>
+          <p>Wolt Awards 2023</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta final-cta-pizza">
+    <div class="container final-cta-inner reveal">
+      <h2>Ready to order?</h2>
+      <div class="hero-actions">
+        <a class="btn btn-yellow" href="https://order.gastroplanner.no/s/emilskebabpizzeria" target="_blank" rel="noopener">Order for pickup</a>
+        <a class="btn btn-ghost" href="https://wolt.com/en/nor/bergen/restaurant/emils-kebab" target="_blank" rel="noopener">Order for delivery</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-logo-col">
+        <a href="./" class="footer-logo"><img src="../assets/logo.png" alt="Emil's Kebab & Pizzeria" width="217" height="66" /></a>
+        <p>Stølegaten 21, 5003 Bergen<br />Støletorget, Sandviken</p>
+      </div>
+      <div class="footer-col">
+        <h4>Opening hours</h4>
+        <p>Monday–Thursday: 11.00–22.45</p>
+        <p>Friday–Saturday: 11.00–23.45</p>
+        <p>Sunday: 11.00–22.45</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+4794009495">+47 94 00 94 95</a>
+        <a href="tel:+4755311900">+47 55 31 19 00</a>
+        <a href="mailto:piam-as@hotmail.com">piam-as@hotmail.com</a>
+        <a href="https://www.instagram.com/emilskebabogpizzeria/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>All rights reserved © 2026 Emil's Kebab & Pizzeria · <a href="../meny.html" lang="nb" hreflang="nb">Norsk</a></span>
+      <a href="https://dmarketing.no" target="_blank" rel="noopener">Website by Dietrichs Marketing</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../menu-data-en.js"></script>
+<script src="../menu-render.js"></script>
+<script src="../app.js"></script>
